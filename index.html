@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تعلم الليرو</title>
+</head>
+
+<body>
+  <h1>🌍 تعلم لغة الليرو</h1>
+
+  <p>مرحبًا بك في تطبيق تعلم الليرو!</p>
+
+  <h2>📚 الدروس</h2>
+  <p>سنتعلم هنا كلمات وقواعد لغة الليرو خطوة بخطوة.</p>
+
+  <h2>🔊 النطق</h2>
+  <button onclick="speak()">استمع إلى الليرو</button>
+
+  <script>
+    function speak() {
+      const text = "Λa love eat apple";
+      const voice = new SpeechSynthesisUtterance(text);
+      speechSynthesis.speak(voice);
+    }
+  </script>
+</body>
+</html># lero-app
+تطبيق تعليم لغة الليرو 
